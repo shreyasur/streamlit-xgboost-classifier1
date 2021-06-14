@@ -6,4 +6,6 @@ There are different datasets to choose from and also you can vizualise how your 
 
 If the accuracy is more than 90% then you also get a celeberatory balloon show.
 
+Documentation of XGBoost Classifier parameters-https://xgboost.readthedocs.io/en/latest/parameter.html
+
 deployed on heroku-https://xgboost-classifier.herokuapp.com/
