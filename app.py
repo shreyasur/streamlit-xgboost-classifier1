@@ -10,7 +10,7 @@ from sthelper import StHelper
 import webbrowser
 
 ##st.title('Gradient Boost Classification')
-url='https://xgboost.readthedocs.io/en/latest/parameter.html'
+#url='https://xgboost.readthedocs.io/en/latest/parameter.html'
 
 
 
@@ -30,10 +30,10 @@ if st.sidebar.button('HOW TO RUN'):
                      '2.Once done, click on Run Algorithm\nbutton.\n'
                      '3.If the accuracy is more that 0.90\nthen you will get a celebratory balloon\n show.\n'
                      '4.To again set the default values\n, reload the page.\n'
-                     '5.For more details about the parameters\n click on Documentation button')
+                     )
 
-if st.sidebar.button('DOCUMENTATION'):
-    webbrowser.open_new_tab(url)
+#if st.sidebar.button('DOCUMENTATION'):
+#   webbrowser.open_new_tab(url)
 
 # dataset
 dataset_options=st.sidebar.radio('Choose Dataset',('use generated dataset','use toy dataset'))
