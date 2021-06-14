@@ -1,4 +1,4 @@
-# streamlit-XGBoost-Classifier-App
+# Streamlit-XGBoost-Classifier-App
 
 This is an interactive streamlit app where you can hypertune all the parameters of the XGBoost Classifier.
 
